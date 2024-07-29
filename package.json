@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ui": "npx playwright test",
+    "test:api": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.3"
+  },
   "devDependencies": {
     "@playwright/test": "^1.45.3",
-    "@types/node": "^22.0.0"
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.0.0",
+    "@types/supertest": "^6.0.2"
   }
 }
