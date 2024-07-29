@@ -2,4 +2,9 @@
 
 * git clone https://github.com/jaroslavasd/ovoko.git
 * cd ovoko
-* npx playwright test
+
+## UI Tests (playwright)
+* npm run test:ui
+
+## API Tests (supertest)
+* npm run test:api 
