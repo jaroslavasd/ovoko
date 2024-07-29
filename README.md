@@ -7,4 +7,4 @@
 * npm run test:ui
 
 ## API Tests (supertest)
-* npm run test:api 
+* npm run test:api
