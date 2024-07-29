@@ -6,7 +6,7 @@ test('has title', async ({ page }) => {
 
   const title = page.locator('h1[class*="title"]').first()
 
-  await expect(title).toHaveText('FIND THEMISSINGPIECE1');
+  await expect(title).toHaveText('FIND THEMISSINGPIECE');
 });
 
 test('top navigation links are present', async ({ page }) => {
